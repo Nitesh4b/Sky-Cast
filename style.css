@@ -1,0 +1,123 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100vh;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+  background-color: #969595;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  height: 450px;
+  width: 350px;
+}
+
+/* heading */
+#header{
+  margin: 25px 0px 40px 0px;
+}
+
+#form{
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchBar{
+  margin: 0px 20px 0px 0px;
+  padding: 3px 15px;
+  height: 30px;
+  width: 200px;
+  color: #4b4a4a;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none; /*Removes outline of default input*/
+  
+}
+
+#searchButton{
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  position: relative;
+  top: -1px;
+}
+
+#searchButton img{
+  padding: 8px;
+  height: 20px;
+  width: 20px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+#searchButton img:hover{
+  transform: scale(1.05);
+  outline: none;
+}
+
+
+/* Main */
+#main{
+  height: 300px;
+}
+
+#weatherImg{
+  height: 100px;
+  width: 100px;
+}
+
+#paraTemp{
+  margin: 10px 0px 8px 0px;
+  font-size: 36px;
+}
+
+#paraLocation{
+  font-size: 28px;
+}
+
+
+/* footer */
+footer{
+  margin-top: 50px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer{
+  margin: 10px;
+  display: flex;
+}
+.footerImg{
+  height: 32px;
+  width: 32px;
+}
+
+.infoContainer{
+  margin-left: 10px;
+  position: relative;
+  top: -4px;
+}
+
+.infoValue{
+  font-size: 20px;
+  margin-bottom:2px ;
+}
